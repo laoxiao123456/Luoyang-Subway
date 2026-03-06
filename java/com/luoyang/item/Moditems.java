@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class Moditems {
 
-    //这是注册的物品，以后方块多的话建议分类，例：blocks、nbt
+    //这是注册的物品
     public static  final Item PLATFORM_DOOR01 = registerItem("platform_door01", new Item(new Item.Settings()));
     public static  final Item PLATFORM_DOOR02 = registerItem("platform_door02", new Item(new Item.Settings()));
     public static  final Item PLATFORM_DOOR03 = registerItem("platform_door03", new Item(new Item.Settings()));
@@ -47,4 +47,5 @@ public class Moditems {
     }
 
 }
+
 
