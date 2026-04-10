@@ -1,0 +1,41 @@
+{
+	"schemaVersion":1,
+	"id": "luoyang-subway",
+	"version": "Alpha0.0.1",
+	"name": "洛阳地铁",
+	"description": "第一次写模组，还不熟练（其实是零基础），对了，因为是零基础，所以...可能会有bug",
+	"authors": [
+		"laoxiao123456"
+	],
+	"contact": {
+		"homepage": "https://github.com/laoxiao123456",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/luoyang-subway/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.luoyang.subway.LuoyangSubway"
+		],
+		"client": [
+			"com.luoyang.subway.LuoyangSubwayClient"
+		],
+		"fabric-datagen": [
+			"com.luoyang.subway.LuoyangSubwayDataGenerator"
+		]
+	},
+	"mixins": [
+		"luoyang-subway.mixins.json",
+		{
+			"config": "luoyang-subway.client.mixins.json",
+			"environment": "*"
+		}
+	],
+	"depends": {
+      "fabric-api": ">=0.90.5",
+      "fabricloader": ">=0.16.4",
+      "java": ">=17",
+      "minecraft": "~1.20.1"
+    }
+}

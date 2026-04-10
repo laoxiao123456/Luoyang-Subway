@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "luoyang-subway:item/platform_door02"
+  }
+}

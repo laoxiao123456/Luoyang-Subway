@@ -1,0 +1,10 @@
+{
+  "item.luoyang-subway.platform_door01": "站台门：逃生门",
+  "item.luoyang-subway.platform_door02": "站台门：端门",
+  "item.luoyang-subway.platform_door03": "站台门：普通",
+  "item.luoyang-subway.platform_door_glass": "站台门：玻璃",
+  "item.luoyang-subway.sign_3e": "指示牌：三格-双数",
+  "item.luoyang-subway.railing_01": "栏杆",
+  "itemGroup.station_signs": "车站指示牌",
+  "itemGroup.station_blocks": "车站方块"
+}

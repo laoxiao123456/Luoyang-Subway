@@ -1,0 +1,10 @@
+{
+  "item.luoyang-subway.platform_door01": "Platform Door01",
+  "item.luoyang-subway.platform_door02": "Platform Door02",
+  "item.luoyang-subway.platform_door03": "Platform Door03",
+  "item.luoyang-subway.platform_door_glass": "Platform Door Glass",
+  "item.luoyang-subway.sign_3e": "sign-3E",
+  "item.luoyang-subway.railing_01": "railing",
+  "itemGroup.station_signs": "station signs",
+  "itemGroup.station_blocks": "station blocks"
+}
